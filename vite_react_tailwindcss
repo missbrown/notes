@@ -1,0 +1,12 @@
+css framework: tailwindcss
+
+npm create vite@latest [project name]
+npm install
+npm run dev
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+::npm run dev // 启动开发环境服务
+::可以同时看到设计的调试过程
+::<a href={`#${nav.id}`}>{nav.title}</a> 可以用来让超链接跳转到某个面包屑
